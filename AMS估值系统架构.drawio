@@ -31,11 +31,6 @@
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-9" value="清算服务&lt;br&gt;（清算、对账、生成报表）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="485" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-10" value="爬虫服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="485" width="120" height="60" as="geometry" />
         </mxCell>
@@ -64,7 +59,19 @@
           <mxGeometry x="50" y="445" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-24" value="Oracle Rac集群" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="620" width="60" height="80" as="geometry" />
+          <mxGeometry x="120" y="620" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-29" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-10" target="-GC_Feh9PmOp9ZqAWGjx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-9" target="-GC_Feh9PmOp9ZqAWGjx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;说明&lt;/h1&gt;&lt;p&gt;1、MongoDB用来存储报表结构化的数据；&lt;br&gt;2、RabbitMQ用来触发定时任务和消息通知。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="770" width="390" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
