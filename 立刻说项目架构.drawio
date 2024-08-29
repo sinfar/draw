@@ -184,7 +184,7 @@
           <mxGeometry x="1020" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-70" value="监控及日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="490" width="70" height="30" as="geometry" />
+          <mxGeometry x="980" y="490" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pNoe4SJw2n7nqS-4e_s5-8" value="阿里云OSS&lt;br&gt;（文件存储）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="660" width="120" height="60" as="geometry" />
