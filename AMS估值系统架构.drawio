@@ -63,7 +63,7 @@
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-20" value="应用服务（容器环境）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="445" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-24" value="MySQL集群" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-24" value="Oracle Rac集群" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="190" y="620" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
