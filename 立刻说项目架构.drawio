@@ -4,11 +4,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1WofLLIVv_YYoYcuGVh5-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-64" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="1080" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="900" y="490" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="220" y="630" width="610" height="110" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="440" y="240" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1WofLLIVv_YYoYcuGVh5-44" target="1WofLLIVv_YYoYcuGVh5-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="220" y="490" width="610" height="110" as="geometry" />
@@ -158,6 +167,21 @@
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-59" value="Cannal Server&lt;br&gt;(数据同步)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-65" value="K8S集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-66" value="ELK&lt;br&gt;(日志收集，查看)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-67" value="Skyworking&lt;br&gt;（链路跟踪、APM监控）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-68" value="Promethous&lt;br&gt;(服务监控)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1WofLLIVv_YYoYcuGVh5-70" value="监控及日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="490" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
