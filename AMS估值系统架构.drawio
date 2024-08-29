@@ -28,6 +28,9 @@
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-9" target="-GC_Feh9PmOp9ZqAWGjx-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-9" target="-GC_Feh9PmOp9ZqAWGjx-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-9" value="清算服务&lt;br&gt;（清算、对账、生成报表）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="485" width="120" height="60" as="geometry" />
         </mxCell>
@@ -52,6 +55,9 @@
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-16" value="用户服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="485" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-18" target="-GC_Feh9PmOp9ZqAWGjx-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-18" value="公共基础服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="465" width="80" height="30" as="geometry" />
         </mxCell>
@@ -70,8 +76,11 @@
         <mxCell id="-GC_Feh9PmOp9ZqAWGjx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="-GC_Feh9PmOp9ZqAWGjx-9" target="-GC_Feh9PmOp9ZqAWGjx-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;说明&lt;/h1&gt;&lt;p&gt;1、MongoDB用来存储报表结构化的数据；&lt;br&gt;2、RabbitMQ用来触发定时任务和消息通知。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;说明&lt;/h1&gt;&lt;p&gt;1、MongoDB用来存储报表结构化的数据；&lt;br&gt;2、RabbitMQ用来触发定时任务和消息通知。用rabbitMQ触发定时任务好处是调用方不需要关系处理方是谁。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="770" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-GC_Feh9PmOp9ZqAWGjx-35" value="RabbitMQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
