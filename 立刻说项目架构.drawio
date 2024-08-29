@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="220" y="630" width="640" height="110" as="geometry" />
+          <mxGeometry x="220" y="630" width="660" height="110" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="240" width="170" height="220" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="220" y="490" width="640" height="110" as="geometry" />
+          <mxGeometry x="220" y="490" width="660" height="110" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="320" y="90" width="400" height="120" as="geometry" />
@@ -92,6 +92,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pNoe4SJw2n7nqS-4e_s5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1WofLLIVv_YYoYcuGVh5-11" target="pNoe4SJw2n7nqS-4e_s5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-11" value="订单服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="510" width="120" height="60" as="geometry" />
         </mxCell>
@@ -152,10 +155,10 @@
           <mxGeometry x="230" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-49" value="ES&lt;br&gt;（主从集群）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-50" value="Redis&lt;br&gt;（哨兵集群）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1WofLLIVv_YYoYcuGVh5-58" value="存储层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="630" width="60" height="30" as="geometry" />
@@ -187,7 +190,7 @@
           <mxGeometry x="980" y="490" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pNoe4SJw2n7nqS-4e_s5-8" value="阿里云OSS&lt;br&gt;（文件存储）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pNoe4SJw2n7nqS-4e_s5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNoe4SJw2n7nqS-4e_s5-9" target="1WofLLIVv_YYoYcuGVh5-11">
           <mxGeometry relative="1" as="geometry" />
@@ -202,8 +205,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pNoe4SJw2n7nqS-4e_s5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pNoe4SJw2n7nqS-4e_s5-9" target="pNoe4SJw2n7nqS-4e_s5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pNoe4SJw2n7nqS-4e_s5-9" value="教学服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNoe4SJw2n7nqS-4e_s5-24" value="MongoDB&lt;br&gt;（集群）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
