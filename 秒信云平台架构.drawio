@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="第 1 页" id="ZZtnOp_Xm3Je1tsyHX88">
-    <mxGraphModel dx="1509" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,6 +222,15 @@
         </mxCell>
         <mxCell id="wKqaV-QkhD1benHEGnf--190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="wKqaV-QkhD1benHEGnf--84" target="wKqaV-QkhD1benHEGnf--187">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKqaV-QkhD1benHEGnf--192" value="&lt;ol&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1090" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKqaV-QkhD1benHEGnf--193" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;下行流程&lt;/h1&gt;&lt;p&gt;1.&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;短信收到后首先入发送任务库，然后有线程一直从发送任&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;务送到发送队列；&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.网关监听发送队列如有数据则发送出去；&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="780" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wKqaV-QkhD1benHEGnf--194" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;状态推送流程&lt;/h1&gt;&lt;p&gt;1.&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;网关收到状态报告后首先入状态报告库，同时有一个线程一直取状态报告库的数据送到状态推送队列；&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;2.推送程序负责监听推送队列进行推送&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="900" width="580" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
